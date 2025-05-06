@@ -99,7 +99,27 @@ footer {
 }
 
 
-
+.bg-primary {
+    background-color: steelblue;
+}
+.text-white{
+    color: white;
+}   
+.p-2{
+    padding: 0.5rem;        
+}   
+.rounded-4{
+    border-radius: 0.25rem;
+}
+.text-center{
+    text-align: center;
+}
+.ms-2{
+    margin-left: 0.5rem;
+}
+.me-2{
+    margin-right: 0.5rem;
+}
 /* *{
     outline: dashed 1px red;
 }  */
