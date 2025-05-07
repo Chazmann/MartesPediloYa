@@ -20,14 +20,14 @@
     <marquee behavior="scroll" direction="left" class="marquee">
         <h1>¡Bienvenido a Pedilo Ya! Tu mejor opción para pedir comida a domicilio. Y te lo enviamos</h1>
     </marquee>
-    <form action="" class="login">
+    <form  method="POST" action="login.php" class="login">
         <label for="usuario">Usuario</label>
-        <input type="email" name="usuario" id="email" placeholder="Ingrese su email">
+        <input type="email" name="usuario" id="email" placeholder="Ingrese su email" required>
 
         <label for="password">Contraseña</label>
-        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
 
-        <a href="index.html" class="boton">Iniciar sesión</a>
+        <input type="submit" class="boton" value="iniciar sesion">
         <p>¿No tienes cuenta? <a href="#">Registrate aquí</a></p>
     </form>
     <footer>Pedilo Ya 2025</footer>
