@@ -13,7 +13,7 @@
     --bg-secundario: rgb(98, 2, 129);
     --txt-primario: rgb(0, 0, 0);
     --arial: 'Arial', sans-serif;
-    --sombra-chica: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    --sombra-chica: 2px 2px 5px rgba(0, 0, 0, 0.5);
     --sombra-grande: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 

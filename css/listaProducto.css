@@ -1,0 +1,62 @@
+@import url(mPrueba.css);
+
+
+.listaProducto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+
+
+    .productoItem {
+        background: white;
+        border-radius: 12px;
+        box-shadow: var(--sombra-chica);
+        width: 250px;
+        overflow: hidden;
+
+        .productoImagen img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+    
+    .datosProducto {
+        padding: 15px;
+        text-align: center;
+
+        .productoNombre {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .productoPrecio {
+            font-size: 1em;
+            margin-bottom: 15px;
+            font-weight: bolder;
+            color: var(--bg-secundario);
+        }
+        
+        .agregarCarrito {
+            padding: 10px 15px;
+            background-color: var(--bg-secundario);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .agregarCarrito:hover {
+            background-color: rgb(129, 10, 168);
+        }
+        
+         
+    }
+}
+
+
+
