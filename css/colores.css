@@ -1,0 +1,17 @@
+:root{
+--arial: 'Arial', sans-serif;
+--rojo: red;
+--h100: 100px;
+
+}
+
+
+
+
+.fuenteArial{
+    font-family: var(--arial);
+
+}
+
+.rojo{background-color: var(--rojo);}
+
